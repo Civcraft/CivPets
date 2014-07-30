@@ -1,25 +1,16 @@
 package com.untamedears.CivPets;
 
-import java.util.List;
 import java.util.Random;
 
-import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.entity.Entity;
-import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Ocelot;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Wolf;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityDamageByEntityEvent;
-import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.material.MaterialData;
-import org.bukkit.material.Skull;
-import org.bukkit.metadata.FixedMetadataValue;
 
 public class EventListener implements Listener {
 	
